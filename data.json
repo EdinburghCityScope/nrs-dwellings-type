@@ -1,0 +1,35 @@
+{
+    "id": "https://github.com/EdinburghCityScope/nrs-dwellings-type",
+    "title": "Dwellings by Type",
+    "description": "Number of dwellings in Edinburgh by type.",
+    "landingPage": "https://github.com/EdinburghCityScope/nrs-dwellings-type",
+    "issued": "2016-10-21",
+    "modified": "2016-11-23",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "National Records of Scotland",
+        "mbox": "statistics.enquiries@scotland.gsi.gov.uk"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "housing"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/nrs-dwellings-type/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Dwellings in Edinburgh by Type data",
+            "description": "Dwellings by Type in Edinburgh Data Zones 2001 as published by National Records of Scotland. Data taken from http://statistics.gov.scot/data/dwellings-type",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/nrs-dwellings-type/master/data/dwellings-type.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
